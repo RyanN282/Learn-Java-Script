@@ -1,66 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<style>
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+    
+    <title>Ryan Noscoe | Junior Software Developer</title>
 </head>
-
 <body>
-<div class="header">
-    <h1>Welcome to my Website</h1>
-    <p>This site was created to help me practice Javascript, html and css</p>
-</div>
-<div class="navbar">
-    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjOgLPQzOP8AhUKh1wKHdW_CHUQFnoECA8QAQ&url=https%3A%2F%2Fuk.linkedin.com%2Fin%2Fryan-noscoe-06a575156&usg=AOvVaw0vGA_pazRokc8fKS5A66CB">LinkedIn</a>
-    <a href="github.com/RyanN282">Github Portfolio</a>
-</div>
+    <nav>
+        <h1>Ryan Noscoe</h1>
+        <u1 class="navigation">
+            <li><a href="#about" class="nav-link">About Me</li>
+            <li><a href="#about" class="nav-link">Skills</li>
+            <li><a href="#about" class="nav-link">Current Projects</li>
+            <li><a href="#about" class="nav-link">Contact Information</li>
+        </u1>
+        <button class="Mobile Menu" id="mobile-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="hero" id="about">
+        <img src="img/ComputerScience.jpg" alt="jane-doe" loading="lazy" class="hero-img"/>
+        <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+            I am a hard working, forward thinking individual who has ambitions to become a Junior Software Developer. I am originally from the North-West, now residing in Swansea after completing my 
+            masters degree at Swansea University. I am a passionate computer scientist and I am proficient in 
+            a range of programming languages like C#, Java and MySQL. Eager and ready to prove myself in a 
+            professional work environment and improve upon my current skill set.
+        </p>
+        </div>
+    </section>
 
-<div class="row">
-    <div class="side"><h1>About Me</h1>
-    <p></p></div>
-    <div class="main">...</div>
-</div>
-<div class="slideshow-container">
+    <section class="skills" id="skills">
+        <h2 class="skill-header">Favourite Languages</h2>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="Webpage\img\swansea1.jpg" style="width:100%">
-    </div>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                    src="img/C-Sharp-01.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="img/Java-01.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="img/MySQL-01.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+        </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="Webpage\img\swansea2.jpg" style="width:100%"> 
-    </div>
+        <div class="second-set animate__animated animate__pulse">
+            <img
+                src="img/JavaScript-01.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+            />
+            <img
+                src="img/HTML-5-logo-vector-01.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+            />
+            <img
+                src="img/CSS-3-01.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+            />
+        </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+        <div class="project-container project-card">
+            <img
+                src="assets/images/expenseTracker.png"
+                alt="expense-tracker"
+                loading="lazy"
+                class="project-pic"
+            />
+            <h3 class="project-title">Expense Tracker</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        </div>
+    </section>
+    <!--Projects Section-->
+    <!--Contact Info-->
+    <!--Social media accounts-->
+    <!--Scroll To Top-->
+    <!--Footer-->
+    <script src="script.js"></script>
 
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="Webpage\img\swansea3.jpg" style="width:100%">
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-<div class="footer">
-    <h2>Thankyou for visiting this page!</h2>
-</div>
-</div>
-<script src="script.js"></script>
+    <!---->
 </body>
 </html>
