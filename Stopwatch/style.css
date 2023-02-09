@@ -8,6 +8,8 @@
 
 body{
     background: #29ac50;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -21,6 +23,8 @@ body{
     padding: 20px 0;
     padding-bottom: 50px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .timerDisplay{
     position: relative;
@@ -33,7 +37,7 @@ body{
     font-size: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0,139,253,0.25);
 }
