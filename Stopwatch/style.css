@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #448aff;
+    background: #29ac50;
 }
 
 .container{
@@ -42,6 +42,8 @@ body{
     margin: 60px auto 0 auto;
     display: flex;
     justify-content: space-around;
+    user-select: none;
+    
 }
 .buttons button{
     width: 120px;
