@@ -21,13 +21,13 @@ document.getElementById('resetTimer').addEventListener('click', ()=>{
 
 function displayTimer(){
     milliseconds+=10;
-    if(milliseconds == 1000){
-        milliseconds = 0;
+    if(milliseconds == 1000){ //when a millisecond passes the timer adds 
+        milliseconds = 0; //one to the second counter
         seconds++;
-        if(seconds == 60){
+        if(seconds == 60){ //same as above but for minutes
             seconds = 0;
             minutes++;
-            if(minutes == 60){
+            if(minutes == 60){ //same for hours
                 minutes = 0;
                 hours++;
             }
