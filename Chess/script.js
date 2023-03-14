@@ -7,6 +7,7 @@
 -Rooks
 -King
 -Capturing Pieces
+-Promotion
 -Check
 -Checkmate
 -Stalemate
